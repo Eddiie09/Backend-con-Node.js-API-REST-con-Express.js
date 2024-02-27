@@ -10,9 +10,6 @@ app.get("/", (req, res) =>{
   res.send("Hola mi primer server en express");
 });
 
-app.get("/nueva-ruta", (req, res) =>{
-  res.send("Hola nueva ruta");
-});
 
 routerApi(app);
 
